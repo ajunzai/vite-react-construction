@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s linear;
+}
+
+.img-bg {
+  width: 100%;
+  height: 100%;
+}
+.next-button {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+}
